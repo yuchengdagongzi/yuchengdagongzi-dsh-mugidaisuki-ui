@@ -1,0 +1,10 @@
+# DeepSeek Harness bundle patch for dsh-mugidaisuki-ui.
+#
+# `dsh plugin --profile <name> add <spec>` appends this package to the
+# profile's `dsh.profile.bundles` after install, and the loader mounts the
+# plugin below as one profile layer. The package name is
+# `dsh-mugidaisuki-ui`; the mounted entry keeps the shorter product name
+# `mugidaisuki-ui`.
+- insert:
+    - id: mugidaisuki-ui
+      name: dsh-mugidaisuki-ui

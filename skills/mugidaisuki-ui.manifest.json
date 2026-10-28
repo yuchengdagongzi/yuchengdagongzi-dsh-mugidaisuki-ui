@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "name": "mugidaisuki-ui",
+  "version": "0.3.0",
+  "upstream": null,
+  "source": {
+    "path": "skills/mugidaisuki-ui/SKILL.md",
+    "sha256": "0c41b434d38f00d90e8fcb44aec81f6e44fc6cebe226d969c32226e0579a3306",
+    "bodySha256": "c56959f84296bae043cafc83482e85c08c404f3b8ec4ad9d498a162255310365"
+  },
+  "fileCount": 3,
+  "totalBytes": 12923,
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 5534,
+      "sha256": "0c41b434d38f00d90e8fcb44aec81f6e44fc6cebe226d969c32226e0579a3306"
+    },
+    {
+      "path": "references/design-prompt-template.md",
+      "bytes": 1610,
+      "sha256": "8fd3d584bd8001e67f4ebcc8798f5053d07884754bb7a9ff3493088d5da9542a"
+    },
+    {
+      "path": "references/style-prompt-options.md",
+      "bytes": 5779,
+      "sha256": "0f9f9833cd10cf9dc5a5d737c213f9d182e83a0a6938297c997a204e2f3e88e0"
+    }
+  ]
+}

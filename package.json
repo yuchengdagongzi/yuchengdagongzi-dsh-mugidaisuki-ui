@@ -1,0 +1,59 @@
+{
+  "name": "dsh-mugidaisuki-ui",
+  "version": "0.3.0",
+  "description": "mugidaisuki-ui：先写设计提示词与风格方案、选定后再调用 oil-ui 执行并逐轮打磨的 DeepSeek Harness 插件；内置 oil-ui、prompt-engineering-patterns 与工作流 Skill。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "mugidaisuki-ui",
+    "oil-ui",
+    "prompt-engineering",
+    "ui-design",
+    "skill"
+  ],
+  "license": "MIT",
+  "author": "yuchengdagongzi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuchengdagongzi/dsh-mugidaisuki-ui.git"
+  },
+  "homepage": "https://github.com/yuchengdagongzi/dsh-mugidaisuki-ui#readme",
+  "bugs": {
+    "url": "https://github.com/yuchengdagongzi/dsh-mugidaisuki-ui/issues"
+  },
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "NOTICE.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22.19.0",
+    "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs && node scripts/build-manifest.mjs",
+    "check": "node scripts/build.mjs --check && node scripts/build-manifest.mjs --check",
+    "audit": "node scripts/audit-skill.mjs",
+    "test": "node --test --test-isolation=none",
+    "test:integration": "node --test --test-isolation=none test/integration.dsh.test.mjs",
+    "verify": "node scripts/build.mjs --check && node scripts/build-manifest.mjs --check && node scripts/audit-skill.mjs && node scripts/verify.mjs && node --test --test-isolation=none"
+  }
+}

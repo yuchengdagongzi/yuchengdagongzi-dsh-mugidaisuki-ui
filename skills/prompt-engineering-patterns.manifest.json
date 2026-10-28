@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "name": "prompt-engineering-patterns",
+  "version": "local",
+  "upstream": {
+    "name": "prompt-engineering-patterns",
+    "repository": "https://github.com/wshobson/agents",
+    "license": "MIT",
+    "copyright": "Seth Hobson",
+    "skillSha256": "6a210b15be01bc6f76a74ec1e46302dee310ddf79d2def63fc9b7c54221fe329"
+  },
+  "source": {
+    "path": "skills/prompt-engineering-patterns/SKILL.md",
+    "sha256": "6a210b15be01bc6f76a74ec1e46302dee310ddf79d2def63fc9b7c54221fe329",
+    "bodySha256": "209b8663f46981a1ae85d31e12398016f97e85e2009a3e6515e8e93c99ac9f23"
+  },
+  "fileCount": 11,
+  "totalBytes": 85729,
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "8ceaab71b527eb5db43810b74afc618ee36556197d2d51c45fd00aac483988c1"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 5360,
+      "sha256": "250d90ce49bcb78a3d80672579afcf903eea9d32430a7fc4e4cd0fdc26486d0f"
+    },
+    {
+      "path": "assets/few-shot-examples.json",
+      "bytes": 4280,
+      "sha256": "e9c8275f70784d147c356707210dac9674942e678ac5aaca440329a4112550b3"
+    },
+    {
+      "path": "assets/prompt-template-library.md",
+      "bytes": 3555,
+      "sha256": "59ce21a50158bc5b9995b97c7ab192903c4072629be38b7b9414d2e5314c9e4a"
+    },
+    {
+      "path": "references/chain-of-thought.md",
+      "bytes": 9813,
+      "sha256": "16137773cef7c202b592c2ebfb037fddf9a9a9cbc9183eb64fcc4868e3565d22"
+    },
+    {
+      "path": "references/details.md",
+      "bytes": 9533,
+      "sha256": "3b1c98e7f0b6bcfc687639ec16f15155c7cd5d726a05b2fd0ae3c1bf6a8d6278"
+    },
+    {
+      "path": "references/few-shot-learning.md",
+      "bytes": 11574,
+      "sha256": "c24593ad7eeb450c14c2fdd9c6130be52f5b45928e4be0fd55a66f644fa37dd6"
+    },
+    {
+      "path": "references/prompt-optimization.md",
+      "bytes": 13220,
+      "sha256": "5286f97accc1d09b421a765f4176b970d6cdaa2d28882efe7e94449890f42b4c"
+    },
+    {
+      "path": "references/prompt-templates.md",
+      "bytes": 11893,
+      "sha256": "85c9d39b3e6bbc6c7ab5db761bdac97922c413d53604ca1cb0a533d06cc84cdb"
+    },
+    {
+      "path": "references/system-prompts.md",
+      "bytes": 5639,
+      "sha256": "932f616681c9ca3d282153c0b8adc604d424cc8a04095c776683193a247e8836"
+    },
+    {
+      "path": "scripts/optimize-prompt.py",
+      "bytes": 9794,
+      "sha256": "b1b5f5f544ba353d418e4f049703f2e2d86e4a422323f6f7c79209aae1e6e000"
+    }
+  ]
+}
